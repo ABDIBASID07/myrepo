@@ -3,7 +3,7 @@
 
 
 {
-    'name': 'Hospital Management',
+    'name': 'Hospital Management system',
     'author': 'Abdibasid Ahmed',
     'version': '1.2.3',
     'category': 'Hospital sys',
