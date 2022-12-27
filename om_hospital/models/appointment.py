@@ -8,7 +8,7 @@ class HospitalAppointment(models.Model):
     _description = "HospitalAppointment"
     _rec_name = "patient_id"
 
-    hide_sales_price = fields.Boolean(string='Hide Sales Price', default=True)
+    hide_sales_price = fields.Boolean(string="Hide Sales Price", default=True)
     patient_id = fields.Many2one('hospital.patient', string='Patient', ondelete='restrict')
     doctor_id = fields.Many2one('res.users', string="Doctor")
     gender = fields.Selection(string="Gender", related='patient_id.gender')
